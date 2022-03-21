@@ -2,6 +2,6 @@
 
 <<<<<<< HEAD
 export(dna_sampler)
-=======
 export(dna_to_rna)
->>>>>>> 95e397436d016b3feb4533a099ca72200d55730d
+export(translate)
+
