@@ -1,6 +1,6 @@
 #' Title: translation_table
 #'
-#' Description: Tanslates RNA to amino acid.
+#' Description: Translates RNA to amino acid.
 #'
 #' @format
 #'
