@@ -15,3 +15,6 @@ rna
 \description{
 Translation from DNA to RNA
 }
+\examples{
+dna_to_rna("ATG") -> AUG
+}
