@@ -32,3 +32,25 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(DNATGC)
 ```
+
+# Introduction
+
+
+# Function 1
+
+
+# Function 2
+
+
+# Function 3
+
+
+# Function 4
+
+
+# Function 5
+
+# Discussions (of question 3 and 4 from "Task 4. Group discussion")
+
+
+
