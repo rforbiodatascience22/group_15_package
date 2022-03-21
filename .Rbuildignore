@@ -1,2 +1,6 @@
-^mypkgname\.Rproj$
+^DNATGC\.Rproj$
 ^\.Rproj\.user$
+^mypkgname\.Rcheck$
+^mypkgname.*\.tar\.gz$
+^mypkgname.*\.tgz$
+^LICENSE\.md$
