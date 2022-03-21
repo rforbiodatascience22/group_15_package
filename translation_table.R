@@ -1,4 +1,4 @@
-transcription_table <- c("UUU" = "F", "UCU" = "S", "UAU" = "Y", "UGU" = "C",
+translation_table <- c("UUU" = "F", "UCU" = "S", "UAU" = "Y", "UGU" = "C",
   "UUC" = "F", "UCC" = "S", "UAC" = "Y", "UGC" = "C",
   "UUA" = "L", "UCA" = "S", "UAA" = "*", "UGA" = "*",
   "UUG" = "L", "UCG" = "S", "UAG" = "*", "UGG" = "W",
