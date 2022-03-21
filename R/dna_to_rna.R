@@ -5,7 +5,7 @@
 #' @return rna
 #' @export
 #'
-#' @examples
+#' @examples dna_to_rna("ATG") -> AUG
 dna_to_rna <- function(dna){
   rna <- gsub("T", "U", dna)
   return(rna)

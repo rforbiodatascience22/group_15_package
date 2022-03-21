@@ -6,6 +6,9 @@
 \usage{
 occurence_plotter(amino_acid_sequence)
 }
+\value{
+aa_plot
+}
 \description{
-Plotting the occurence of each amino acid
+Plotting the occurence of each amino acid.
 }

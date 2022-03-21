@@ -14,6 +14,6 @@
 translation_table
 }
 \description{
-Description: Tanslates RNA to amino acid.
+Description: Translates RNA to amino acid.
 }
 \keyword{datasets}
