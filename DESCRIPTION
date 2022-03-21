@@ -2,7 +2,7 @@ Package: DNATGC
 Title: Central dogme your file. 
 Version: 0.0.0.9000
 Authors@R: 
-    person("Group", "15", , "s165827@.student.dtu.dk", role = c("aut", "cre"),
+    person("Group", "15", , "s165827@student.dtu.dk", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Takes a file containing DNA, transcript it to RNA and translate it 
     to protein sequence. 
