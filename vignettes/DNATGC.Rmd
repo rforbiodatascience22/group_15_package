@@ -17,3 +17,33 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(DNATGC)
 ```
+Group 15
+Aldis Helga Bjorgvinsdottir (s212956), Helene Wegener (s165827), Lasse Rene (s183448), Mikkel Swartz (s174586), Søren Sandgaard (s173686)
+
+# Introduction
+This package has five functions and can translate DNA to amino acid sequences. The function names and variables are in *italic*.
+
+# Function 1
+The function *dna_sampler* generates a random DNA sequence based on input *sample_size* which is the desired length of the sequence and is given by the user. The output of the function is the *sample_DNA* sequence which is completely random and has no biological meaning. 
+
+# Function 2
+The function *dna_to_rna* takes *dna* (a given DNA sequence) and substitutes all T's for U's making it a RNA sequence, *rna*.
+
+# Function 3
+The function *codon_list* takes a *sequence* and a reading frame *start* as input. The function returns a list of codons depending on the sequence and the reading frame, *codons*. All bases that are not within a 3 letter codon will no be displayed.
+
+# Function 4
+The function *translate* takes a list of RNA codons, *codons* as input and uses *translation_table* to translate it to an amino acid sequence. The output variable is a amino acid sequence, *amino_acid*.   
+
+# Function 5
+The function *occurence_plotter* takes the *amino_acid_sequence* and plots the occurences of the unique amino acid as a histogram.
+
+
+# Discussions (of question 3 and 4 from "Task 4. Group discussion")
+Limit the number of dependencies your package has since the user will need to load those packages in order for your package to work. Also, packages can update and change their functions but if you generate your own package you can control the development of each function. 
+
+Using the *package::function()* you are specifying this function to use and the package it belongs to. Meaning that if you have two functions with the same name from different packages, you are certain which function is being called. 
+
+Using the *Importfrom* function and you import two functions with the same name from different packages, the latter imported would be the one that is used when you call the function.
+
+
