@@ -1,0 +1,56 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+---
+title: "DNATGC"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{DNATGC}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(DNATGC)
+```
+
+# Introduction
+
+
+# Function 1
+
+
+# Function 2
+
+
+# Function 3
+
+
+# Function 4
+The translate function takes a RNA condon as input and uses translation_table to translate it to an amino acid.   
+
+# Function 5
+
+# Discussions (of question 3 and 4 from "Task 4. Group discussion")
+Limit the number of dependencies your package has since the user will need to load those packages inorder for your package to work. 
+
+
