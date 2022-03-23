@@ -9,3 +9,6 @@ mypkgname*.tgz
 DNATGC.Rcheck/
 DNATGC*.tar.gz
 DNATGC*.tgz
+inst/doc
+/doc/
+/Meta/

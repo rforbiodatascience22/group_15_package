@@ -7,3 +7,6 @@
 ^DNATGC\.Rcheck$
 ^DNATGC.*\.tar\.gz$
 ^DNATGC.*\.tgz$
+^doc$
+^Meta$
+^README\.Rmd$
