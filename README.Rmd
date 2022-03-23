@@ -46,11 +46,11 @@ library(DNATGC)
 
 
 # Function 4
-
+The translate function takes a RNA condon as input and uses translation_table to translate it to an amino acid.   
 
 # Function 5
 
 # Discussions (of question 3 and 4 from "Task 4. Group discussion")
-
+Limit the number of dependencies your package has since the user will need to load those packages inorder for your package to work. 
 
 
