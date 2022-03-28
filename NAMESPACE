@@ -3,5 +3,6 @@
 export(codon_list)
 export(dna_sampler)
 export(dna_to_rna)
+export(occurence_plotter)
 export(translate)
 importFrom(magrittr,"%>%")
