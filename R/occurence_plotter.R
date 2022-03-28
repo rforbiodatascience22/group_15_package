@@ -3,6 +3,7 @@
 #' @title Plotting the occurence of each amino acid
 #' @importFrom magrittr %>%
 #' @return aa_plot
+#' @export
 
 
 occurence_plotter <- function(amino_acid_sequence){
